@@ -1,5 +1,5 @@
 import React from 'react';
-import './vendor-login.css'
+import '/src/vendor-login.css';
 
 const Login = () => {
     return (

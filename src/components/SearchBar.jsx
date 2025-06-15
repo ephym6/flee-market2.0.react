@@ -1,3 +1,5 @@
+import '/src/vendor-dashboard.css'
+
 export default function SearchBar({ searchValue, onSearchChange, onSearchClick }) {
     return (
         <div className="search-container">

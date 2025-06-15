@@ -1,3 +1,5 @@
+import '/src/vendor-dashboard.css'
+
 export default function VendorCard({vendor}) {
     return (
         <div className="vendor-card" data-category={vendor.category}>

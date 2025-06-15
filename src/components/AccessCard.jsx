@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '/src/index.css'
 
 export default function AccessCard({imgSrc, alt, title, description, buttonText, to, buttonClass}) {
     return (

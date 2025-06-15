@@ -15,7 +15,7 @@
 }
 
 .search-container{
-    display: flex;  /*allows child elements to align horizontaly*/
+    display: flex;  /*allows child elements to align horizontally*/
     margin-bottom: 20px; 
     justify-content: center;
     margin-left: auto;

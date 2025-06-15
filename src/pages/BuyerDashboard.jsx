@@ -1,6 +1,7 @@
 import VendorCard from "../components/VendorCard";
 import SearchBar from "../components/SearchBar";
 import { useState } from "react";
+import '/src/buyer-dashboard.css'
 
 const vendorData = [
     {

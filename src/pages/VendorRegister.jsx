@@ -1,3 +1,5 @@
+import '/src/vendor-register.css'
+
 export default function VendorRegister() {
     return (
         <div className="form-container">
