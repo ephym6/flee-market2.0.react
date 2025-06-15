@@ -1,0 +1,31 @@
+:root {
+    --primary: #3f4a5a;
+    --primary-dark: #2f3a4a;
+    --secondary: #00796b;
+    --secondary-dark: #00695c;
+    --accent: #64b5f6;
+    --accent-dark: #42a5f5;
+    --danger: #e57373;
+    --danger-dark: #ef5350;
+    --white: #ffffff;
+    --light-bg: #f9fafc;
+    --border: #dddddd;
+    --text-dark: #333333;
+    --text-light: #f5f5f5;
+    --heading: #2c3e50;
+
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+
+    --text-base: 1rem;
+    --text-lg: 1.2rem;
+    --text-xl: 1.5rem;
+    --text-2xl: 2rem;
+    --text-3xl: 3rem;
+
+    --transition-fast: 0.15s ease;
+    --transition-normal: 0.3s ease;
+}

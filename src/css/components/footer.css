@@ -1,0 +1,9 @@
+.footer-content {
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: var(--space-sm);
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 13px;
+}
