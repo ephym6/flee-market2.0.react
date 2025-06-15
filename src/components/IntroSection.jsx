@@ -1,5 +1,5 @@
 import React from 'react';
-import '/src/index.css'
+import '/src/css/index.css';
 
 export default function IntroSection() {
     return (

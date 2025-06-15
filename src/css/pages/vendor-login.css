@@ -1,0 +1,43 @@
+@import '../variables.css';
+@import '../base.css';
+@import '../components/form.css';
+@import '../components/header.css';
+@import '../components/footer.css';
+@import '../components/buttons.css';
+
+body {
+    background: linear-gradient(to right, #000000, #434343);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+.login-form {
+    background: linear-gradient(to right, #48c6ef, #6f86d6);
+    padding: 40px;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.login-form h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.forgot-pass {
+    text-align: right;
+    font-size: 17px;
+}
+
+.forgot-pass a {
+    color: greenyellow;
+    text-decoration: none;
+}

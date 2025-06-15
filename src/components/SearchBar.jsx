@@ -1,4 +1,4 @@
-import '/src/vendor-dashboard.css'
+import '/src/css/pages/vendor-dashboard.css'
 
 export default function SearchBar({ searchValue, onSearchChange, onSearchClick }) {
     return (

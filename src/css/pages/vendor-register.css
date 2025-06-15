@@ -1,0 +1,36 @@
+@import '../variables.css';
+@import '../base.css';
+@import '../components/form.css';
+@import '../components/buttons.css';
+
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: var(--white);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+h2 {
+  text-align: center;
+  color: var(--heading);
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+}

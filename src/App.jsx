@@ -1,5 +1,9 @@
 import React from 'react';
-import './index.css';
+import './css/base.css';
+import './css/variables.css';
+import './css/index.css';
+import './css/components/header.css';
+import './css/components/footer.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import IntroSection from "./components/IntroSection";

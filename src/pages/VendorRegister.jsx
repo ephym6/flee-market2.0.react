@@ -1,4 +1,5 @@
-import '/src/vendor-register.css'
+import '/src/css/pages/vendor-register.css';
+
 
 export default function VendorRegister() {
     return (

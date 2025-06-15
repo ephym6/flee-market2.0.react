@@ -1,5 +1,9 @@
 import React from 'react';
-import '/src/vendor-login.css';
+import '/src/css/pages/vendor-login.css';
+import Footer from "../components/Footer.jsx";
+import { Link } from "react-router-dom";
+import App from "../App.jsx";
+import VendorRegister from "./VendorRegister.jsx";
 
 const Login = () => {
     return (
@@ -10,9 +14,9 @@ const Login = () => {
                 </div>
                 <div className="vendor-nav">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="/vendors/login">Sign In</a></li>
-                        <li><a href="VendorRegister.jsx">Register</a></li>
+                        <li><Link to={App}>Home</Link></li>
+                        <li><Link to={Login}>Sign In</Link></li>
+                        <li><Link to={VendorRegister}>Register</Link></li>
                     </ul>
                 </div>
             </header>
@@ -33,16 +37,17 @@ const Login = () => {
                             <input type="checkbox" id="remember-me" name="remember-me" value="remember-me"/>
                             <label htmlFor="remember-me">Remember Me</label>
 
-                            <p className="forgot-pass"><a href="">Forgot Password</a></p>
+                            <p className="forgot-pass"><Link to={""}>Forgot Password</Link></p>
                         </div>
-                        <p className="register">Don't have an account? <a href="/VendorRegister.jsx">Register
-                            here</a></p>
+                        <p className="register">Don't have an account? <Link to={VendorRegister}>Register here</Link></p>
                         <div className="log-in">
                             <input type="submit" value="Log In"/>
                         </div>
                     </form>
                 </div>
             </section>
+
+            <Footer />
         </>
     );
 };
