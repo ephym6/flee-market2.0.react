@@ -1,8 +1,20 @@
-import { reactRouter } from "@react-router/dev/vite";
-import tailwindcss from "@tailwindcss/vite";
-import { defineConfig } from "vite";
-import tsconfigPaths from "vite-tsconfig-paths";
+// vite.config.js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
-});
+  plugins: [react()],
+  base: '/', // Ensure this is correct for your deployment
+  server: {
+    open: true, // optional: opens browser automatically
+  },
+  build: {
+    outDir: 'dist',
+  },
+  // fix 404 on refresh with react-router
+  resolve: {
+    alias: {
+      '@': '/src',
+    },
+  },
+})
